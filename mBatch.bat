@@ -1,0 +1,1 @@
+@py.exe c:\users\matth\mypythonscripts\mBatch.py %* 
