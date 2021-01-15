@@ -1,1 +1,1 @@
-@py.exe c:\users\matth\mypythonscripts\mBatch.py %* 
+@py.exe c:\PathOfWhereverYouPutmBatch.py\mBatch.py %* 
