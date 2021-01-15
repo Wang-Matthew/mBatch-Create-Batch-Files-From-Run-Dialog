@@ -12,8 +12,8 @@ else:
 
 withoutPyExt = file2Convert[:-3]
 
-currentPath = ('C:\\Users\\matth\\MyPythonScripts\\' + withoutPyExt + '.bat')
+currentPath = ('C:\\PathOfWhereverYouPutYourPythonFiles\\' + withoutPyExt + '.bat')
 
 newBatchFile = open(currentPath, 'w')
-newBatchFile.write('@py.exe C:\\users\matth\MyPythonScripts\\' + file2Convert + ' %*')
+newBatchFile.write('@py.exe C:\\PathOfWhereverYouPutYourPythonFiles\\' + file2Convert + ' %*')
 newBatchFile.close()
